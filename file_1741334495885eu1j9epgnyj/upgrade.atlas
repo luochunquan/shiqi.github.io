@@ -1,0 +1,83 @@
+
+upgrade.png
+size: 800,800
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+WING1
+  rotate: false
+  xy: 415, 416
+  size: 65, 89
+  orig: 194, 128
+  offset: 72, 0
+  index: -1
+WING2
+  rotate: false
+  xy: 528, 508
+  size: 162, 110
+  orig: 162, 110
+  offset: 0, 0
+  index: -1
+WING3
+  rotate: false
+  xy: 528, 407
+  size: 145, 99
+  orig: 145, 99
+  offset: 0, 0
+  index: -1
+arrow
+  rotate: true
+  xy: 415, 620
+  size: 178, 158
+  orig: 204, 217
+  offset: 13, 48
+  index: -1
+crown
+  rotate: false
+  xy: 575, 708
+  size: 151, 90
+  orig: 151, 90
+  offset: 0, 0
+  index: -1
+light_loop-M
+  rotate: true
+  xy: 575, 637
+  size: 69, 72
+  orig: 75, 85
+  offset: 6, 10
+  index: -1
+star
+  rotate: false
+  xy: 415, 507
+  size: 111, 111
+  orig: 124, 124
+  offset: 6, 6
+  index: -1
+star2
+  rotate: false
+  xy: 408, 22
+  size: 29, 29
+  orig: 33, 32
+  offset: 2, 2
+  index: -1
+tx_q
+  rotate: false
+  xy: 2, 2
+  size: 404, 383
+  orig: 468, 468
+  offset: 56, 38
+  index: -1
+tx_q2
+  rotate: false
+  xy: 408, 53
+  size: 333, 332
+  orig: 336, 335
+  offset: 0, 3
+  index: -1
+tx_qq
+  rotate: false
+  xy: 2, 387
+  size: 411, 411
+  orig: 469, 471
+  offset: 29, 30
+  index: -1

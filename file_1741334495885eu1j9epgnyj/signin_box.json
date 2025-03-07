@@ -1,0 +1,209 @@
+{
+  "playerVersion": {
+    "web": "1.6.5",
+    "native": "0.0.1.202311221223"
+  },
+  "images": [
+    {
+      "url": "./signin_box.png",
+      "webp": "./signin_box.webp",
+      "renderLevel": "B+"
+    }
+  ],
+  "fonts": [],
+  "spines": [],
+  "version": "2.4",
+  "shapes": [],
+  "plugins": [],
+  "type": "ge",
+  "compositions": [
+    {
+      "id": "1",
+      "name": "Treasure",
+      "duration": 1.6,
+      "startTime": 0,
+      "endBehavior": 2,
+      "previewSize": [200, 200],
+      "items": [
+        {
+          "id": "2",
+          "name": "sign_active",
+          "duration": 1.6,
+          "type": "1",
+          "parentId": "4",
+          "visible": true,
+          "endBehavior": 5,
+          "delay": 0,
+          "renderLevel": "B+",
+          "content": {
+            "options": {
+              "startColor": [1, 1, 1, 1]
+            },
+            "renderer": {
+              "renderMode": 1,
+              "anchor": [0.5, 0.5],
+              "texture": 0
+            },
+            "positionOverLifetime": {
+              "path": [
+                22,
+                [
+                  [
+                    [3, [0, 0, 0.1271, 0], 1],
+                    [1, [0.2542, 1, 0.3812, 1, 0.4229, 1], 1],
+                    [1, [0.4646, 2, 0.5063, 2, 0.5896, 2], 1],
+                    [1, [0.6729, 1.4873, 0.7563, 0.981, 0.8375, 0.4874], 1],
+                    [2, [0.9188, 0, 1, 0]]
+                  ],
+                  [
+                    [0, 0.1474, 0],
+                    [0, 0.1674, 0],
+                    [0, 0.1774, 0],
+                    [0, 0.1615, 0],
+                    [0, 0.1474, 0]
+                  ],
+                  [
+                    [0, 0.1541, 0],
+                    [0, 0.1607, 0],
+                    [0, 0.1707, 0],
+                    [0, 0.1741, 0],
+                    [0, 0.1741, 0],
+                    [0, 0.1677, 0],
+                    [0, 0.1551, 0],
+                    [0, 0.1491, 0]
+                  ]
+                ]
+              ]
+            },
+            "sizeOverLifetime": {
+              "size": [
+                21,
+                [
+                  [3, [0, 1, 0.1688, 1], 1],
+                  [1, [0.3375, 1.2, 0.5063, 1.2, 0.5896, 1.2], 1],
+                  [1, [0.6729, 1.0645, 0.7563, 1.0645, 0.8375, 1.0645], 1],
+                  [2, [0.9188, 1.02, 1, 1.02], 1],
+                  [4, [10.1937, 1.08]]
+                ]
+              ],
+              "separateAxes": true,
+              "x": [
+                21,
+                [
+                  [3, [0, 1, 0.1688, 1], 1],
+                  [1, [0.3375, 1.2, 0.5063, 1.2, 0.5896, 1.2], 1],
+                  [1, [0.6729, 1.0645, 0.7563, 1.0645, 0.8375, 1.0645], 1],
+                  [2, [0.9188, 1.02, 1, 1.02], 1],
+                  [4, [10.1937, 1.08]]
+                ]
+              ],
+              "y": [
+                21,
+                [
+                  [3, [0, 1, 0.1688, 1], 1],
+                  [1, [0.3375, 1, 0.5063, 1, 0.5896, 1], 1],
+                  [1, [0.6729, 1.0645, 0.7563, 1.0645, 0.8375, 1.0645], 1],
+                  [2, [0.9188, 1.02, 1, 1.02], 1],
+                  [4, [10.1937, 1.08]]
+                ]
+              ]
+            },
+            "splits": [[0.51171875, 0, 0.375, 0.4140625, 1]]
+          },
+          "transform": {
+            "position": [0, -0.1474, 0],
+            "rotation": [0, 0, 0],
+            "scale": [4, 4.4167, 1]
+          }
+        },
+        {
+          "id": "4",
+          "name": "particle_4",
+          "duration": 1.6,
+          "type": "2",
+          "visible": true,
+          "endBehavior": 5,
+          "delay": 0,
+          "renderLevel": "B+",
+          "content": {
+            "shape": {
+              "type": 4,
+              "radius": 0,
+              "arc": 360,
+              "arcMode": 0,
+              "alignSpeedDirection": false,
+              "width": 0,
+              "height": 0,
+              "shape": "Circle"
+            },
+            "splits": [[0, 0, 0.50390625, 0.41796875, 0]],
+            "options": {
+              "startColor": [8, [1, 1, 1, 1]],
+              "maxCount": 8000,
+              "startLifetime": [4, [0.5, 1]],
+              "startDelay": [4, [0, 0]],
+              "startSize": [4, [0.7, 0.9]],
+              "sizeAspect": [0, 1],
+              "start3DSize": false,
+              "startRotationZ": [0, 0],
+              "particleFollowParent": false
+            },
+            "renderer": {
+              "renderMode": 1,
+              "anchor": [0.5, 0.5],
+              "texture": 0
+            },
+            "emission": {
+              "rateOverTime": [0, 34]
+            },
+            "positionOverLifetime": {
+              "startSpeed": [4, [4, 6]],
+              "gravity": [0, 0, 0],
+              "gravityOverLifetime": [0, 0]
+            },
+            "colorOverLifetime": {
+              "color": [
+                9,
+                [
+                  [0, 253, 253, 0, 255],
+                  [0.25, 255, 0, 92, 255],
+                  [0.5, 244, 147, 255, 255],
+                  [1, 0, 233, 51, 255]
+                ]
+              ],
+              "opacity": [
+                21,
+                [
+                  [3, [0, 1, 0.35, 0.4736]],
+                  [2, [0.0062, 0.4213, 1, 0]]
+                ]
+              ]
+            }
+          },
+          "transform": {
+            "position": [0, 0, 0],
+            "rotation": [0, 0, 0],
+            "scale": [1, 1, 1]
+          }
+        }
+      ],
+      "camera": {
+        "fov": 60,
+        "far": 40,
+        "near": 0.1,
+        "clipMode": 1,
+        "position": [0, 0, 8],
+        "rotation": [0, 0, 0]
+      }
+    }
+  ],
+  "requires": [],
+  "compositionId": "1",
+  "bins": [],
+  "textures": [
+    {
+      "source": 0,
+      "flipY": true
+    }
+  ]
+}

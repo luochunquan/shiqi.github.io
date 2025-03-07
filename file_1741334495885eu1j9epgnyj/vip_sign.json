@@ -1,0 +1,83 @@
+{
+  "playerVersion": {
+    "web": "2.0.6",
+    "native": "0.0.1.202311221223"
+  },
+  "images": [
+    {
+      "url": "./vip_sign.png",
+      "webp": "./vip_sign.webp",
+      "renderLevel": "B+"
+    }
+  ],
+  "fonts": [],
+  "version": "2.4",
+  "shapes": [],
+  "plugins": [],
+  "type": "ge",
+  "compositions": [
+    {
+      "id": "1",
+      "name": "light",
+      "duration": 5,
+      "startTime": 0,
+      "endBehavior": 5,
+      "previewSize": [300, 300],
+      "items": [
+        {
+          "id": "1",
+          "name": "light",
+          "duration": 5,
+          "type": "1",
+          "visible": true,
+          "endBehavior": 0,
+          "delay": 0,
+          "renderLevel": "B+",
+          "content": {
+            "options": {
+              "startColor": [1, 1, 1, 1]
+            },
+            "renderer": {
+              "renderMode": 1,
+              "texture": 0
+            },
+            "splits": [[0, 0, 0.5859375, 0.5859375, 0]],
+            "positionOverLifetime": {},
+            "rotationOverLifetime": {
+              "z": [
+                21,
+                [
+                  [4, [0, 0]],
+                  [4, [1, 360]]
+                ]
+              ],
+              "asRotation": true
+            }
+          },
+          "transform": {
+            "position": [0, 0, 0],
+            "rotation": [0, 0, 0],
+            "scale": [9.2299, 9.2299, 1]
+          }
+        }
+      ],
+      "camera": {
+        "fov": 60,
+        "far": 40,
+        "near": 0.1,
+        "clipMode": 1,
+        "position": [0, 0, 8],
+        "rotation": [0, 0, 0]
+      }
+    }
+  ],
+  "bins": [],
+  "textures": [
+    {
+      "source": 0,
+      "flipY": true
+    }
+  ],
+  "compositionId": "1",
+  "spines": []
+}

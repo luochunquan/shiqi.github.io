@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta http-equiv="Cache-control" content="no-cache">
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<title>Digitan Sportsbook integration</title>
+		<script>
+			function getQueryObject(url) {
+				url = url == null ? window.location.href : url
+				const search = url.substring(url.lastIndexOf('?') + 1)
+				const obj = {}
+				const reg = /([^?&=]+)=([^?&=]*)/g
+				search.replace(reg, (rs, $1, $2) => {
+					const name = decodeURIComponent($1)
+					let val = decodeURIComponent($2)
+					val = String(val)
+					obj[name] = val
+					return rs
+				})
+				return obj
+			}
+
+
+			function integrationOptionFack(query) {
+				const view = query.view === 'mobile' ? 'Mobile' : 'LatinoView'
+				const params = {
+					view,
+					server: decodeURIComponent(query.server) + '/',
+					token: query.token,
+					defaultLanguage: query.language,
+					// hashRouterDisabled: false,
+					// externalLinksOpenInside: true,
+					parent: [location.hostname],
+					
+				}
+				return params
+			}
+
+			document.addEventListener('DOMContentLoaded', function () {
+				const query = getQueryObject()
+				const serve = decodeURIComponent(query.server)
+				const script = document.createElement('script')
+				script.src = `${serve}/js/partner/bootstrapper.min.js`
+				script.addEventListener('load', function () {
+					const options = integrationOptionFack(query)
+					Bootstrapper.bootIframe(
+						{
+							token: options.token,
+							server: options.server,
+							// server: 'https://sport.digisportdemo.com/',
+							defaultLanguage: options.defaultLanguage,
+							// login: LoginTrigger,
+							registration: 'RegisterTrigger',
+							containerId: 'sport_div_iframe',
+							theme: 'dark',
+							parent: options.parent,
+							userId: options.user_id
+						},
+						{
+							name: options.view
+						}
+					).then(function (response) {
+						console.log(response)
+						// addListeners(response)
+						// response.navigateTo(navigateTo)
+					})
+				})
+				document.body.append(script)
+			})
+		</script>
+
+		<style>
+			html,
+			body {
+				width: 100%;
+				height: 100%;
+				background: #1b1d20;
+				padding: 0;
+				margin: 0;
+			}
+			#sport_div_iframe {
+				width: 100%;
+				height: 100%;
+				border: 0;
+			}
+
+			* {
+				scrollbar-width: thin;
+				scrollbar-color: #757575 #757575;
+			}
+
+			*::-webkit-scrollbar {
+				width: 6px;
+				background-color: tranparent;
+			}
+
+			*::-webkit-scrollbar-track {
+				background: transparent;
+			}
+
+			*::-webkit-scrollbar-thumb {
+				background-color: #757575;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="sport_div_iframe"></div>
+	</body>
+</html>

@@ -1,0 +1,450 @@
+{
+  "playerVersion": {
+    "web": "2.0.4",
+    "native": "0.0.1.202311221223"
+  },
+  "images": [
+    {
+      "url": "./activit_fg_rotate.png",
+      "renderLevel": "B+"
+    }
+  ],
+  "fonts": [],
+  "version": "2.4",
+  "shapes": [],
+  "plugins": [],
+  "type": "ge",
+  "compositions": [
+    {
+      "id": "1",
+      "name": "bets",
+      "duration": 3.6,
+      "startTime": 0,
+      "endBehavior": 5,
+      "previewSize": [120, 120],
+      "items": [
+        {
+          "id": "1",
+          "name": "layer 77",
+          "duration": 3.6,
+          "type": "1",
+          "visible": true,
+          "endBehavior": 5,
+          "delay": 0,
+          "renderLevel": "B+",
+          "content": {
+            "options": {
+              "startColor": [1, 1, 1, 1]
+            },
+            "renderer": {
+              "renderMode": 1,
+              "texture": 0
+            },
+            "splits": [[0.51171875, 0, 0.25, 0.34375, 1]],
+            "positionOverLifetime": {}
+          },
+          "transform": {
+            "position": [0, 0, 0],
+            "rotation": [0, 0, 0],
+            "scale": [4.9165, 6.7601, 1]
+          }
+        },
+        {
+          "id": "2",
+          "name": "particle_5",
+          "duration": 3.6,
+          "type": "2",
+          "visible": true,
+          "endBehavior": 5,
+          "delay": 0,
+          "renderLevel": "B+",
+          "content": {
+            "dataType": "ParticleSystem",
+            "shape": {
+              "type": 4,
+              "radius": 1,
+              "arc": 90,
+              "arcMode": 0,
+              "alignSpeedDirection": false,
+              "shape": "Circle"
+            },
+            "renderer": {
+              "renderMode": 1,
+              "texture": 0,
+              "blending": 3
+            },
+            "splits": [[0, 0, 0.50390625, 0.41796875, 0]],
+            "emission": {
+              "rateOverTime": [0, 5]
+            },
+            "options": {
+              "maxCount": 100,
+              "startLifetime": [0, 0.8],
+              "startDelay": [0, 0],
+              "particleFollowParent": false,
+              "start3DSize": false,
+              "startRotationZ": [0, 0],
+              "startColor": [8, [1, 1, 1, 1]],
+              "startSize": [4, [0.2, 1]],
+              "sizeAspect": [0, 1]
+            },
+            "colorOverLifetime": {
+              "opacity": [
+                21,
+                [
+                  [3, [0, 1, 0.5556, 1]],
+                  [2, [0.3667, 0.275, 1.3889, 0]]
+                ]
+              ]
+            },
+            "positionOverLifetime": {
+              "startSpeed": [4, [0.2, 3]],
+              "gravity": [0, 0, 0],
+              "gravityOverLifetime": [0, 1]
+            }
+          },
+          "transform": {
+            "position": [-0.348, -1.0707, 0],
+            "rotation": [0, 0, 320],
+            "scale": [1, 1, 1]
+          }
+        },
+        {
+          "id": "3",
+          "name": "particle_6",
+          "duration": 3.6,
+          "type": "2",
+          "visible": true,
+          "endBehavior": 5,
+          "delay": 0,
+          "renderLevel": "B+",
+          "content": {
+            "dataType": "ParticleSystem",
+            "shape": {
+              "type": 8,
+              "radius": 2,
+              "arc": 90,
+              "arcMode": 0,
+              "alignSpeedDirection": false,
+              "width": 4.5,
+              "shape": "Edge"
+            },
+            "renderer": {
+              "renderMode": 1,
+              "texture": 0,
+              "blending": 5
+            },
+            "splits": [[0, 0, 0.50390625, 0.41796875, 0]],
+            "emission": {
+              "rateOverTime": [0, 2]
+            },
+            "options": {
+              "maxCount": 10,
+              "startLifetime": [0, 4],
+              "startDelay": [0, 0],
+              "particleFollowParent": false,
+              "start3DSize": false,
+              "startRotationZ": [0, 0],
+              "startColor": [8, [1, 1, 1, 1]],
+              "startSize": [0, 0.2],
+              "sizeAspect": [0, 1]
+            },
+            "colorOverLifetime": {
+              "opacity": [
+                21,
+                [
+                  [3, [0, 1, 0.3266, 1]],
+                  [1, [0.5898, 1.0045, 0.8389, 0.7253, 1.0096, 0.5339], 1],
+                  [2, [1.165, 0, 1.3889, 0]]
+                ]
+              ]
+            },
+            "positionOverLifetime": {
+              "startSpeed": [4, [0.5, 1.1]],
+              "gravity": [0, 0, 0],
+              "gravityOverLifetime": [0, 1]
+            }
+          },
+          "transform": {
+            "position": [-0.1488, -2.5049, 0],
+            "rotation": [0, 0, 0],
+            "scale": [1, 1, 1]
+          }
+        },
+        {
+          "id": "4",
+          "name": "layer 3",
+          "duration": 2.02,
+          "type": "1",
+          "visible": true,
+          "endBehavior": 0,
+          "delay": 0,
+          "renderLevel": "B+",
+          "content": {
+            "options": {
+              "startColor": [1, 1, 1, 1]
+            },
+            "renderer": {
+              "renderMode": 1,
+              "texture": 0
+            },
+            "splits": [[0.86328125, 0.2109375, 0.078125, 0.08984375, 1]],
+            "positionOverLifetime": {
+              "path": [
+                22,
+                [
+                  [
+                    [3, [0, 0, 0.07095709570957096, 0], 1],
+                    [1, [0.1419141914191419, 1, 0.2128712871287129, 1, 0.26237623762376233, 1], 1],
+                    [1, [0.3118811881188119, 0, 0.36138613861386143, 0, 0.391089108910891, 0], 1],
+                    [1, [0.42079207920792067, 0.5, 0.4504950495049504, 0.5, 0.5214521452145214, 0.5], 1],
+                    [1, [0.5924092409240923, 1, 0.663366336633663, 1, 0.773927392739273, 1], 1],
+                    [2, [0.8844884488448845, 0, 0.9950495049504949, 0], 1]
+                  ],
+                  [
+                    [0, -0.10999999999999999, 0],
+                    [0, 0.24, 0],
+                    [0, -0.10999999999999999, 0],
+                    [0, -0.10999999999999999, 0],
+                    [0, 0.24, 0],
+                    [0, -0.10999999999999999, 0]
+                  ],
+                  [
+                    [0, 0.00666666666666671, 0],
+                    [0, 0.1233333333333333, 0],
+                    [0, 0.3566666666666667, 0],
+                    [0, -0.22666666666666657, 0],
+                    [0, 0.006666666666666599, 0],
+                    [0, -0.22666666666666657, 0],
+                    [0, 0.00666666666666671, 0],
+                    [0, 0.1233333333333333, 0],
+                    [0, 0.3566666666666667, 0],
+                    [0, -0.22666666666666657, 0]
+                  ]
+                ]
+              ]
+            },
+            "sizeOverLifetime": {
+              "size": [0, 0.5899999999999996]
+            }
+          },
+          "transform": {
+            "position": [0, 0.79, 0],
+            "rotation": [0, 0, 115],
+            "scale": [1.5364, 1.7669, 1]
+          }
+        },
+        {
+          "id": "5",
+          "name": "layer 2",
+          "duration": 2.02,
+          "type": "1",
+          "visible": true,
+          "endBehavior": 0,
+          "delay": 0,
+          "renderLevel": "B+",
+          "content": {
+            "options": {
+              "startColor": [1, 1, 1, 1]
+            },
+            "renderer": {
+              "renderMode": 1,
+              "texture": 0
+            },
+            "splits": [[0.86328125, 0, 0.12109375, 0.10546875, 0]],
+            "positionOverLifetime": {
+              "path": [
+                22,
+                [
+                  [
+                    [3, [0, 0, 0.07095709570957094, 0], 1],
+                    [1, [0.14191419141914188, 1, 0.2128712871287129, 1, 0.2623762376237623, 1], 1],
+                    [1, [0.3118811881188118, 0, 0.36138613861386126, 0, 0.3910891089108908, 0], 1],
+                    [1, [0.39108910891089094, 0.5, 0.45049504950495034, 0.5, 0.5214521452145214, 0.5], 1],
+                    [1, [0.5924092409240923, 1, 0.6633663366336634, 1, 0.7722772277227712, 1], 1],
+                    [2, [0.8811881188118817, 0, 0.99009900990099, 0], 1]
+                  ],
+                  [
+                    [0, 0, 0],
+                    [0.31000000000000005, 0, 0],
+                    [0, 0, 0],
+                    [0, 0, 0],
+                    [0.31000000000000005, 0, 0],
+                    [0, 0, 0]
+                  ],
+                  [
+                    [0.10333333333333328, 0, 0],
+                    [0.20666666666666678, 0, 0],
+                    [0.41333333333333333, 0, 0],
+                    [-0.10333333333333339, 0, 0],
+                    [0.10333333333333339, 0, 0],
+                    [-0.10333333333333328, 0, 0],
+                    [0.10333333333333328, 0, 0],
+                    [0.20666666666666678, 0, 0],
+                    [0.41333333333333333, 0, 0],
+                    [-0.10333333333333339, 0, 0]
+                  ]
+                ]
+              ]
+            },
+            "sizeOverLifetime": {
+              "size": [0, 0.7599999999999998]
+            }
+          },
+          "transform": {
+            "position": [1.05, -0.19, 0],
+            "rotation": [0, 0, -25],
+            "scale": [2.3814, 2.0741, 1]
+          }
+        },
+        {
+          "id": "6",
+          "name": "layer 4",
+          "duration": 2.02,
+          "type": "1",
+          "visible": true,
+          "endBehavior": 0,
+          "delay": 0,
+          "renderLevel": "B+",
+          "content": {
+            "options": {
+              "startColor": [1, 1, 1, 1]
+            },
+            "renderer": {
+              "renderMode": 1,
+              "texture": 0
+            },
+            "splits": [[0.86328125, 0.11328125, 0.09765625, 0.08984375, 0]],
+            "positionOverLifetime": {
+              "path": [
+                22,
+                [
+                  [
+                    [3, [0, 0, 0.1303630363036305, 0], 1],
+                    [1, [0.26072607260726094, 1, 0.39108910891089155, 1, 0.4702970297029703, 1], 1],
+                    [1, [0.4702970297029703, 0.5, 0.6287128712871285, 0.5, 0.6996699669966994, 0.5], 1],
+                    [1, [0.77062706270627, 1, 0.841584158415841, 1, 0.8910891089108903, 1], 1],
+                    [2, [0.9405940594059405, 0, 0.9900990099009895, 0], 1]
+                  ],
+                  [
+                    [0, 0, 0],
+                    [-0.32999999999999985, 0, 0],
+                    [0, 0, 0],
+                    [-0.32999999999999985, 0, 0],
+                    [0, 0, 0]
+                  ],
+                  [
+                    [-0.10999999999999988, 0, 0],
+                    [-0.21999999999999997, 0, 0],
+                    [-0.43999999999999995, 0, 0],
+                    [0.10999999999999988, 0, 0],
+                    [-0.10999999999999988, 0, 0],
+                    [-0.21999999999999997, 0, 0],
+                    [-0.43999999999999995, 0, 0],
+                    [0.10999999999999999, 0, 0]
+                  ]
+                ]
+              ]
+            },
+            "sizeOverLifetime": {
+              "size": [0, 0.7399999999999998]
+            }
+          },
+          "transform": {
+            "position": [-1.06, 0.07, 0],
+            "rotation": [0, 0, 0],
+            "scale": [1.9205, 1.7669, 1]
+          }
+        },
+        {
+          "id": "7",
+          "name": "particle_12",
+          "duration": 1.58,
+          "type": "2",
+          "visible": true,
+          "endBehavior": 0,
+          "delay": 2.02,
+          "renderLevel": "B+",
+          "content": {
+            "dataType": "ParticleSystem",
+            "shape": {
+              "type": 4,
+              "radius": 1,
+              "arc": 360,
+              "arcMode": 0,
+              "alignSpeedDirection": false,
+              "shape": "Circle"
+            },
+            "renderer": {
+              "renderMode": 1,
+              "texture": 0
+            },
+            "splits": [[0.86328125, 0, 0.12109375, 0.10546875, 0]],
+            "emission": {
+              "rateOverTime": [0, 5],
+              "bursts": [
+                {
+                  "time": 0,
+                  "count": 0,
+                  "cycles": 0,
+                  "interval": 0
+                }
+              ]
+            },
+            "options": {
+              "maxCount": 10,
+              "startLifetime": [0, 0.3],
+              "startDelay": [0, 0],
+              "particleFollowParent": false,
+              "start3DSize": false,
+              "startRotationZ": [0, 0],
+              "startColor": [8, [1, 1, 1, 1]],
+              "startSize": [4, [0.5, 1.5]],
+              "sizeAspect": [0, 1]
+            },
+            "rotationOverLifetime": {
+              "asRotation": true,
+              "z": [0, 20]
+            },
+            "colorOverLifetime": {
+              "opacity": [
+                21,
+                [
+                  [3, [0, 1, 0.7544, 1]],
+                  [2, [1.1316, 0, 1.8861, 0]]
+                ]
+              ]
+            },
+            "positionOverLifetime": {
+              "startSpeed": [4, [4, 5]],
+              "gravity": [0, 0, 0],
+              "gravityOverLifetime": [0, 1]
+            }
+          },
+          "transform": {
+            "position": [0, 0, 0],
+            "rotation": [0, 0, 0],
+            "scale": [1, 1, 1]
+          }
+        }
+      ],
+      "camera": {
+        "fov": 60,
+        "far": 40,
+        "near": 0.1,
+        "clipMode": 1,
+        "position": [0, 0, 8],
+        "rotation": [0, 0, 0]
+      }
+    }
+  ],
+  "bins": [],
+  "textures": [
+    {
+      "source": 0,
+      "flipY": true
+    }
+  ],
+  "compositionId": "1",
+  "spines": []
+}
